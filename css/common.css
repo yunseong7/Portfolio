@@ -1,7 +1,11 @@
 @charset "utf-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
-
+@font-face {
+    font-family: 'Cafe24 Ssurround';
+    src: url(/css/Cafe24Ssurround-v2.0.woff);
+  }
+  
 *{
     margin: 0;
     padding: 0;

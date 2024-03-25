@@ -4,9 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>YUN SEONG PORTFOLIO</title>
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
   <link rel="icon" href="img/logo.ico">
   <link rel="stylesheet" href="css/common.css">
   <link rel="stylesheet" href="css/main.css">
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
   <script src="js/jquery.min.js"></script>
   <script src="js/script.js"></script>
 </head>
@@ -55,7 +57,8 @@
                 YUN SEONG<br>
                 PORTFOLIO
               </h1>
-              <h2>안녕하세요!<br>
+              <h2>
+                <br>안녕하세요!<br>
                 완성작에 희열을 느끼는<br>
                 웹 퍼블리셔
                 <u>김윤성</u> 입니다.
@@ -70,9 +73,7 @@
                               
                 다른 분야에서의 경험으로 다양한 구성원과의<br>
                 <span>원활한 소통이 가능</span>하며, 만족하지 않기에<br>
-                계속해서 발전할 수 있는 퍼블리셔가 되겠습니다.<br><br>
-                              
-                <span>Thank's' for visiting my portfolio.</span>
+                계속해서 발전할 수 있는 퍼블리셔가 되겠습니다.
               </p>
             </div>
           </div>
@@ -194,6 +195,7 @@
           </ul>
         </div>
       </div>
+
       <div id="work" class="section">
         <div class="index">
           <ul id="tabmenu">
@@ -207,19 +209,123 @@
           <div class="display">
             <div class="show">
               <div class="workcontent">
-                1번
+                <div class="swiper mySwiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="slide_info">
+                        <h2>BON VOYAGE</h2>
+                        <div class="link_btn">
+                          <a target="_blank" href="https://yunseong7.github.io/bonvoyage">VIEW</a>
+                        </div>
+                      </div>
+                      <div class="slide_content">
+                        <img src="img/bonvoyage_home.png" />
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="slide_info">
+                        <h2>버거킹</h2>
+                        <div class="link_btn">
+                          <a target="_blank" href="https://yunseong7.github.io/burgerking">VIEW</a>
+                        </div>
+                      </div>
+                      <div class="slide_content">
+                        <img src="img/burgerking_home.png" />
+                      </div>                      
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="slide_info">
+                        <h2>마켓컬리</h2>
+                        <div class="link_btn">
+                          <a target="_blank" href="https://yunseong7.github.io/market_kurly">VIEW</a>
+                        </div>
+                      </div>
+                      <div class="slide_content">
+                        <img src="img/market_kurly_home.png" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-button-prev slide_leftbtn">
+                  <img src="img/left_btn.png" alt="left_btn">
+                </div>
+                <div class="swiper-button-next slide_rightbtn">
+                  <img src="img/right_btn.png" alt="right_btn">
+                </div>
               </div>
             </div>
             <div>
               <div class="workcontent">
-                2번
+                <div class="responsive_img">
+                  <div class="responsive_img_cover">
+                    <img src="img/pointer.png" alt="pointer">
+                  </div>
+                  <img src="img/ddp_fullpage.png" alt="ddp_fullpage">
+                </div>
+                <div class="responsive_info">
+                  <ul class="responsive_info_data">
+                    <li>
+                      <h2>DDP <span>(동대문 디자인 플라자)</span></h2>
+                    </li>
+                    <li>
+                      <h3>구성</h3>
+                      <span>PC + Tablet + Mobile</span>
+                    </li>
+                    <li>
+                      <h3>참여도</h3>
+                      <span>100 % (1인 프로젝트)</span>
+                    </li>
+                    <li>
+                      <h3>사용툴</h3>
+                      <span>HTML5 / CSS3 / JAVASCRIPT</span>
+                    </li>
+                    <li>
+                      <div class="responsive_view">
+                        <a target="_blank" href="https://yunseong7.github.io/DDP">VIEW</a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+
       <div id="contact" class="section">
-        <div class="index"></div>
+        <div class="index">
+          <div class="display">
+            <div id="contact_method">
+              <div id="email">
+                <a href="mailto:yunseong7@naver.com">
+                  <img src="img/mail.png" alt="E-MAIL">
+                  <span>yunseong7@naver.com</span>
+                </a>
+              </div>
+              <div id="closing">
+                <p>
+                  궁금하신 점이 있으시다면 연락 남겨주십시오.<br>
+                  확인 후 빠르게 회신 드리겠습니다.
+                </p>
+              </div>
+              <div id="qrcode">
+                <a target="_blank" href="https://open.kakao.com/o/slLRY8hg">
+                  <img src="img/qrcode.jpg" alt="QRcode">
+                  <span>Kakaotalk Openchat</span>
+                </a>
+              </div>               
+            </div>
+            <div id="rolling">
+              <span class="roll_text">Thank's for visiting my portfolio</span>
+              <span class="roll_text">Thank's for visiting my portfolio</span>
+            </div>
+          </div>
+        </div>
+        <div id="bottom">
+          <div id="copyright">
+            <span>© KIM YUNSEONG. ALL Rights Reserved.</span>
+          </div>
+        </div>
       </div>
     </main>
   </div>

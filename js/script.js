@@ -42,4 +42,23 @@ $(document).ready(function () {
         $(this).addClass("on").siblings().removeClass("on");
         $("#work .display>div").eq(menu).addClass("show").siblings().removeClass("show");
     })
+
+    let swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        centeredSlides: true,
+        slidesPerView: "auto",
+        loop: true,
+        touchRatio: 0,
+        coverflowEffect: {
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        }
+      });
 });
